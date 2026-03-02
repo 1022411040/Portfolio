@@ -5,7 +5,7 @@ import {
 } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import ApiClient from "../common/axios";
+import ApiClient from "../common/axios.js";
 import SummaryApi from "../common/SummaryApi";
 import PortfolioBootLoader from '../components/PortfolioBootLoader'
 import PageLoader from "../components/ui/PageLoader";
