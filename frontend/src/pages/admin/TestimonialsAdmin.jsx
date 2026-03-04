@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FiCheck, FiX, FiEye, FiEyeOff, FiStar } from "react-icons/fi";
-import ApiClient from "../../common/axios";
+import ApiClient from "../../Common/axios";
 import AdminLayout from "../admin/AdminLayout";
 import clsx from "clsx";
 

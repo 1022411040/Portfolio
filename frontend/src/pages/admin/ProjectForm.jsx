@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { FiPlus, FiX, FiUpload } from "react-icons/fi";
-import ApiClient from "../../common/axios";
+import ApiClient from "../../Common/axios";
 import SummaryApi from "../../common/SummaryApi";
 import AdminLayout from "../../components/admin/AdminLayout";
 

@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { RiWifiOffLine } from "react-icons/ri";
 import { useDispatch } from "react-redux";
 
-import ApiClient from "./common/axios";
+import ApiClient from "./Common/axios";
 import SummaryApi from "./common/SummaryApi";
 import GlobalProvider from "./context/GlobalProvider";
 import ErrorBoundary from "./components/ErrorBoundary";

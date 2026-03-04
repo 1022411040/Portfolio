@@ -173,7 +173,7 @@ import {
   FiAward, FiTool, FiLayout, FiShield
 } from "react-icons/fi";
 import { useDispatch, useSelector } from "react-redux";
-import ApiClient from "../../common/axios";
+import ApiClient from "../../Common/axios";
 import SummaryApi from "../../common/SummaryApi";
 import { clearAuth } from "../../store/slices/adminSlice";
 import clsx from "clsx";

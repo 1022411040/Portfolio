@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FiMail, FiUser, FiCalendar, FiCheck, FiX } from "react-icons/fi";
-import ApiClient from "../common/axios.js";
+
+import ApiClient from "../Common/axios";
 import AdminLayout from "../pages/admin/AdminLayout";
 import clsx from "clsx";
 

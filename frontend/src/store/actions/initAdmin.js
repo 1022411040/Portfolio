@@ -1,4 +1,4 @@
-import ApiClient from "../../common/axios";
+import ApiClient from "../../Common/axios";
 import SummaryApi from "../../common/SummaryApi";
 import { setAdmin, clearAuth, setLoading } from "../slices/adminSlice";
 
