@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FiEdit2, FiTrash2, FiPlus, FiEye, FiEyeOff, FiMove } from "react-icons/fi";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import AdminLayout from "../admin/AdminLayout";
 import clsx from "clsx";
 

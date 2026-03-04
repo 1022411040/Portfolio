@@ -8,7 +8,7 @@ import { RiWifiOffLine } from "react-icons/ri";
 import { useDispatch } from "react-redux";
 
 import ApiClient from "./Common/axios";
-import SummaryApi from "./common/SummaryApi";
+import SummaryApi from "./Common/SummaryApi";
 import GlobalProvider from "./context/GlobalProvider";
 import ErrorBoundary from "./components/ErrorBoundary";
 import HeaderSkeleton from "./components/skeletons/HeaderSkeleton";

@@ -1,5 +1,5 @@
 import ApiClient from "../Common/ApiClient";
-import SummaryApi from "../common/SummaryApi";
+import SummaryApi from "../Common/SummaryApi";
 
 export const fetchProjects = () =>
   ApiClient({ ...SummaryApi.getProjects });

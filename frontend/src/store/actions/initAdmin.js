@@ -1,5 +1,5 @@
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import { setAdmin, clearAuth, setLoading } from "../slices/adminSlice";
 
 export const initAdmin = () => async (dispatch) => {

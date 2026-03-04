@@ -790,7 +790,7 @@ import clsx from "clsx";
 import { useTheme } from "../context/ThemeProvider";
 import { useDispatch, useSelector } from "react-redux";
 import ApiClient from "../Common/axios";
-import SummaryApi from "../common/SummaryApi";
+import SummaryApi from "../Common/SummaryApi";
 import { clearAuth } from "../store/slices/adminSlice";
 import { motion, AnimatePresence } from "framer-motion";
 

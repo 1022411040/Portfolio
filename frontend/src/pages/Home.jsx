@@ -6,7 +6,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import ApiClient from "../Common/axios.js";
-import SummaryApi from "../common/SummaryApi";
+import SummaryApi from "../Common/SummaryApi";
 import PortfolioBootLoader from '../components/PortfolioBootLoader'
 import PageLoader from "../components/ui/PageLoader";
 

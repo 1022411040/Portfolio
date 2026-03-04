@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { FiPlus, FiX, FiUpload } from "react-icons/fi";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import AdminLayout from "../../components/admin/AdminLayout";
 
 export default function ProjectForm() {

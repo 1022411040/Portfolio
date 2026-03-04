@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FiEdit2, FiTrash2, FiStar, FiEye, FiEyeOff, FiPlus } from "react-icons/fi";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import AdminLayout from "../admin/AdminLayout";
 import clsx from "clsx";
 

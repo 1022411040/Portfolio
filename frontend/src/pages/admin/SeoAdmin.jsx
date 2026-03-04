@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 
 export default function SeoAdmin() {
   const [page, setPage] = useState("home");

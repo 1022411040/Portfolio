@@ -174,7 +174,7 @@ import {
 } from "react-icons/fi";
 import { useDispatch, useSelector } from "react-redux";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import { clearAuth } from "../../store/slices/adminSlice";
 import clsx from "clsx";
 

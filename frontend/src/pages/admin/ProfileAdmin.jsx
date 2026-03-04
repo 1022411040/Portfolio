@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import AdminLayout from "../admin/AdminLayout";
 
 export default function ProfileAdmin() {

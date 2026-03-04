@@ -518,7 +518,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import Axios from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import { setAdmin } from "../../store/slices/adminSlice";
 import { useDispatch } from "react-redux";
 

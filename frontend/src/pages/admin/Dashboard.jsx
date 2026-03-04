@@ -10,7 +10,7 @@ import {
   MdOutlineComputer 
 } from "react-icons/md";
 import ApiClient from "../../Common/axios";
-import SummaryApi from "../../common/SummaryApi";
+import SummaryApi from "../../Common/SummaryApi";
 import AdminLayout from "../admin/AdminLayout";
 
 export default function Dashboard() {
